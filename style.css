@@ -49,3 +49,17 @@ input[type=submit]:hover {
     background-color: white;
     color: black;
 }
+
+/* home-categories-column */
+
+.home-categories-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.home-categories-column-list li {
+    list-style-type: none;
+}
